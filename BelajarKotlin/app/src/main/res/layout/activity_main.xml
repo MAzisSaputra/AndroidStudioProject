@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--        kolom pertama-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--            baris pertama-->
+            <RelativeLayout
+                android:layout_weight="1"
+                android:background="#b6cafa"
+                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/bis"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <TextView
+                    android:id="@+id/btn_bis"
+                    android:text="@string/bis"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="160dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <!--            baris kedua-->
+            <RelativeLayout
+                android:layout_weight="1"
+                android:background="#b6cafa"
+                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/pesawat"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <TextView
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="160dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!--        kolom kedua-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--            baris ketiga-->
+            <RelativeLayout
+                android:layout_weight="1"
+                android:background="#b6cafa"
+                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/kapal"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <TextView
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="160dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <!--            baris keempat-->
+            <RelativeLayout
+                android:layout_weight="1"
+                android:background="#b6cafa"
+                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/mobil"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <TextView
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="160dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!--        kolom ketiga-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--            baris ketiga-->
+            <RelativeLayout
+                android:layout_weight="1"
+                android:background="#b6cafa"
+                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/kereta"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <TextView
+                    android:text="kereta_api"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="160dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <!--            baris keempat-->
+            <RelativeLayout
+                android:layout_weight="1"
+                android:background="#b6cafa"
+                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/tiket"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <TextView
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="160dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
